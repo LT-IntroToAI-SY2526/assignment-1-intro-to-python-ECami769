@@ -1,5 +1,5 @@
 # Assignment 1: AI-Generated Python Problems
-# Name: [Your Name Here]
+# Name: Elisabeth Cami
 
 """
 AI-Generated Problem Set
@@ -20,7 +20,9 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-[Paste the prompt you used to generate your problem set here]
+"I'm learning Python basics in a high school programming class and I'm new to programming. 
+Can you create 5-7 practice problems that cover Variables and basic data types Conditionals (if/elif/else) 
+Loops (for and while) Functions Basic list operations"
 
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
@@ -31,19 +33,31 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 # =============================================================================
 
 """
-PROBLEM 1: [Problem Title/Description]
-[Copy the complete problem description from your AI assistant]
+PROBLEM 1: Variables and Basic Data Types
+Create a program that asks the user for their name and age. Then print a message saying:
+Hello, [name]! You are [age] years old.
+"""
+# name = input("What is your name? ")
+# age = input("How old are you? ")
 
+# print("Hello,", name + "! You are", age, "years old.")
+"""
 Example:
-Problem: Write a function called 'is_even' that takes an integer and returns 
-True if the number is even, False if it's odd.
 
 Example inputs/outputs:
 - is_even(4) should return True
 - is_even(7) should return False
 """
+"""
+PROBLEM 2: Conditionals (if/elif/else)
+Ask the user to enter the temperature (in Celsius). Then print a message depending on the temperature:
+Below 0°C → "It's freezing!"
 
+0-20°C → "It's cold."
 
+21-30°C → "Nice weather."
+
+Above 30°C → "It's hot!"
 
 
 
@@ -58,25 +72,38 @@ Example inputs/outputs:
 # =============================================================================
 
 
-"""
-Test all your solutions with different inputs
 
-Add asserts if you feel comfortable
+Test- all your solutions with different inputs
 
-Example:
-print("Testing Problem 1:")
-print(f"is_even(4): {is_even(4)}")  # Should print True
-print(f"is_even(7): {is_even(7)}")  # Should print False
-"""
+Add asserts: if you feel comfortable
 
-print("Testing Problem 1:")
-# Add your tests here
+Example:"""
+# print("Testing Problem 1:")
+# print(f"is_even(4): {is_even(4)}")  # Should print True
+# print(f"is_even(7): {is_even(7)}")  # Should print False
 
-print("\nTesting Problem 2:")
-# Add your tests here
+
+
+# print("Testing Problem 1:")
+# name = input("What is your name? ") #Ask the user for input
+# age = input("How old are you? ") #This is a string by default
+# age = int(age)
+# print("In 5 years you will be", age + 5)
+
+print("Testing Problem 2:")
+
+num = input("What is the tempeature?")
+if num <= 20:
+    input ("It's cold!")
+elif num == 20-30:
+    input ("Nice weather.")
+else:
+    input ("It's hot!")
+
 
 print("\nTesting Problem 3:")
 # Add your tests here
+
 
 print("\nTesting Problem 4:")
 # Add your tests here
