@@ -77,28 +77,28 @@ Test- all your solutions with different inputs
 
 Add asserts: if you feel comfortable
 
-Example:"""
+# Example:"""
 # print("Testing Problem 1:")
 # print(f"is_even(4): {is_even(4)}")  # Should print True
 # print(f"is_even(7): {is_even(7)}")  # Should print False
 
 
 
-# print("Testing Problem 1:")
-# name = input("What is your name? ") #Ask the user for input
-# age = input("How old are you? ") #This is a string by default
-# age = int(age)
-# print("In 5 years you will be", age + 5)
+print("Testing Problem 1:")
+name = input("What is your name? ") #Ask the user for input
+age = input("How old are you? ") #This is a string by default
+age = int(age)
+print("In 5 years you will be", age + 5)
 
-# print("Testing Problem 2:")
+print("Testing Problem 2:")
 
-# num = int(input("What is the tempeature?"))
-# if num <= 20:
-#     print ("It's cold!")
-# elif 20 < num < 30:
-#     print ("Nice weather.")
-# else:
-#     print ("It's hot!")
+num = int(input("What is the tempeature?"))
+if num <= 20:
+    print ("It's cold!")
+elif 20 < num < 30:
+    print ("Nice weather.")
+else:
+    print ("It's hot!")
 
 
 print("\nTesting Problem 3:")
@@ -107,9 +107,25 @@ for i in range(times):
     print(int(input("How many stars did you see?")))
 
 print("\nTesting Problem 4:")
-# Add your tests here
+def greet_all(names):
+    for name in names:
+        print("Hello,", name + "!")
+
+names = ["Ava", "Matt", "Jane", "Kate"]
+greet_all(names)
 
 print("\nTesting Problem 5:")
-# Add your tests here
+favorite_food = input("What is your favorite food?")
+print("Sounds good!")
+
+favorite_color = input("What is your favorite color? Blue, red or green?")
+if favorite_color == "blue":
+    print("Like the sky!")
+elif favorite_color == "red":
+    print("Reminds me of strawberries.")
+elif favorite_color == "green":
+    print("Like the nature.")
+else:
+    print("That's also a good choice!")
 
 
