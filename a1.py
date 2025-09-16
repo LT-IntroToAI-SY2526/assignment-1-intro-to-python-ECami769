@@ -90,20 +90,21 @@ Example:"""
 # age = int(age)
 # print("In 5 years you will be", age + 5)
 
-print("Testing Problem 2:")
+# print("Testing Problem 2:")
 
-num = input("What is the tempeature?")
-if num <= 20:
-    input ("It's cold!")
-elif num == 20-30:
-    input ("Nice weather.")
-else:
-    input ("It's hot!")
+# num = int(input("What is the tempeature?"))
+# if num <= 20:
+#     print ("It's cold!")
+# elif 20 < num < 30:
+#     print ("Nice weather.")
+# else:
+#     print ("It's hot!")
 
 
 print("\nTesting Problem 3:")
-# Add your tests here
-
+times = int(input("How many nights do you want to log?"))
+for i in range(times):
+    print(int(input("How many stars did you see?")))
 
 print("\nTesting Problem 4:")
 # Add your tests here
